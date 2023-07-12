@@ -10,6 +10,8 @@
 @import url(../blocks/list/list.css);
 /* subtitle */
 @import url(../blocks/subtitle/subtitle.css);
+/* link */
+@import url(../blocks/link/link.css);
 /* decor */
 @import url(../blocks/decor/__circle/decor__circle.css);
 @import url(../blocks/decor/__ellipse/decor__ellipse.css);
@@ -39,3 +41,11 @@
 @import url(../blocks/versions/__about/versions__about.css);
 @import url(../blocks/versions/__text/versions__text.css);
 @import url(../blocks/versions/__text/_last/versions__text_last.css);
+/* goods */
+@import url(../blocks/goods/goods.css);
+@import url(../blocks/goods/__list/goods__list.css);
+@import url(../blocks/goods/__item/goods__item.css);
+@import url(../blocks/goods/__img/goods__img.css);
+@import url(../blocks/goods/__item-info/goods__item-info.css);
+@import url(../blocks/goods/__circulation/goods__circulation.css);
+@import url(../blocks/goods/__item-text/goods__item-text.css);
