@@ -1,0 +1,10 @@
+.footer__top {
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  min-width: 290px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DDDDDD;
+}

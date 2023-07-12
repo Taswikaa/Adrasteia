@@ -6,6 +6,8 @@
 @import url(../blocks/page/page.css);
 /* button */
 @import url(../blocks/button/button.css);
+/* main-btn */
+@import url(../blocks/main-btn/main-btn.css);
 /* list */
 @import url(../blocks/list/list.css);
 /* subtitle */
@@ -14,7 +16,9 @@
 @import url(../blocks/link/link.css);
 /* decor */
 @import url(../blocks/decor/__circle/decor__circle.css);
+@import url(../blocks/decor/__circle/_white/decor__circle_white.css);
 @import url(../blocks/decor/__ellipse/decor__ellipse.css);
+@import url(../blocks/decor/__ellipse/_white/decor__ellipse_white.css);
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__heading/header__heading.css);
@@ -53,3 +57,12 @@
 @import url(../blocks/sponsors/sponsors.css);
 @import url(../blocks/sponsors/__container/sponsors__container.css);
 @import url(../blocks/sponsors/__img/sponsors__img.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__top/footer__top.css);
+@import url(../blocks/footer/__heading/footer__heading.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__registered/footer__registered.css);
+@import url(../blocks/footer/__registered-text/footer__registered-text.css);
+@import url(../blocks/footer/__registered-span/footer__registered-span.css);
