@@ -49,3 +49,7 @@
 @import url(../blocks/goods/__item-info/goods__item-info.css);
 @import url(../blocks/goods/__circulation/goods__circulation.css);
 @import url(../blocks/goods/__item-text/goods__item-text.css);
+/* sponsors */
+@import url(../blocks/sponsors/sponsors.css);
+@import url(../blocks/sponsors/__container/sponsors__container.css);
+@import url(../blocks/sponsors/__img/sponsors__img.css);
