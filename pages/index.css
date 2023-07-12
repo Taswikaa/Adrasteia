@@ -1,13 +1,15 @@
 /* normalize */
 @import url(../vendor/normalize.css);
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 /* page */
 @import url(../blocks/page/page.css);
 /* button */
 @import url(../blocks/button/button.css);
 /* list */
 @import url(../blocks/list/list.css);
+/* subtitle */
+@import url(../blocks/subtitle/subtitle.css);
 /* decor */
 @import url(../blocks/decor/__circle/decor__circle.css);
 @import url(../blocks/decor/__ellipse/decor__ellipse.css);
@@ -27,3 +29,13 @@
 @import url(../blocks/about/__heading/about__heading.css);
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__button/about__button.css);
+/* versions */
+@import url(../blocks/versions/versions.css);
+@import url(../blocks/versions/__list/versions__list.css);
+@import url(../blocks/versions/__item/versions__item.css);
+@import url(../blocks/versions/__item-about/versions__item-about.css);
+@import url(../blocks/versions/__item-header/versions__item-header.css);
+@import url(../blocks/versions/__item-text/versions__item-text.css);
+@import url(../blocks/versions/__about/versions__about.css);
+@import url(../blocks/versions/__text/versions__text.css);
+@import url(../blocks/versions/__text/_last/versions__text_last.css);
