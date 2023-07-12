@@ -1,0 +1,8 @@
+.header_buttons {
+  padding: 22px;
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+}

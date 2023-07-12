@@ -1,0 +1,8 @@
+.header__top {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+}

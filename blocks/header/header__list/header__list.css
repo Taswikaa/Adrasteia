@@ -1,0 +1,6 @@
+.header__list {
+  display: none;
+  flex-direction: column;
+  row-gap: 50px;
+  padding: 65px 0 65px 15px;
+}

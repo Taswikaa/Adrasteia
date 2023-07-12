@@ -1,0 +1,24 @@
+/* normalize */
+@import url(../vendor/normalize.css);
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu:wght@300&display=swap');
+/* page */
+@import url(../blocks/page/page.css);
+/* button */
+@import url(../blocks/button/button.css);
+/* list */
+@import url(../blocks/list/list.css);
+/* decor */
+@import url(../blocks/decor/__circle/decor__circle.css);
+@import url(../blocks/decor/__ellipse/decor__ellipse.css);
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/header__heading/header__heading.css);
+@import url(../blocks/header/header__top/header__top.css);
+@import url(../blocks/header/header_buttons/header_buttons.css);
+@import url(../blocks/header/header__burger/header__burger.css);
+@import url(../blocks/header/header__search/header__search.css);
+@import url(../blocks/header/header__login/header__login.css);
+@import url(../blocks/header/header__menu/header__menu.css);
+@import url(../blocks/header/header__list/header__list.css);
+@import url(../blocks/header/header__item/header__item.css);
