@@ -4,3 +4,9 @@
   background-image: url(../../../images/search.svg);
   margin-left: auto;
 }
+
+@media screen and (min-width: 576px) {
+  .header__search {
+    margin-right: 30px;
+  }
+}

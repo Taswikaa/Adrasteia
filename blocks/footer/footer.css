@@ -6,3 +6,13 @@
   justify-items: center;
   background-color: #4C5866;
 }
+
+@media screen and (min-width: 576px) {
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 185px;
+    row-gap: 30px;
+  }
+}

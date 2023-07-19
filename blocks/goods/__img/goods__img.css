@@ -1,3 +1,9 @@
 .goods__img {
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 576px) {
+  .goods__img {
+    width: 240px;
+  }
+}

@@ -3,3 +3,10 @@
   font-size: 20px;
   padding-top: 14px;
 }
+
+@media screen and (min-width: 576px) {
+  .header {
+    max-width: 89vw;
+    margin: 0 auto;
+  }
+}

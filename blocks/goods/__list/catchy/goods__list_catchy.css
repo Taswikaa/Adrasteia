@@ -1,0 +1,5 @@
+@media screen and (min-width: 576px) {
+  .goods__list_catchy {
+    justify-content: left;
+  }
+}

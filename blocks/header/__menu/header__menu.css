@@ -1,3 +1,10 @@
 .header__menu {
   background-color: #EBEBEB;
 }
+
+@media screen and (min-width: 576px) {
+  .header__menu {
+    background-color: #fff;
+  }
+}
+

@@ -6,3 +6,12 @@
   padding-top: 20px;
   align-items: center;
 }
+
+@media screen and (min-width: 576px) {
+  .versions__item {
+    flex-direction: column;
+    column-gap: 0;
+    align-items: baseline;
+    max-width: 160px;
+  }
+}

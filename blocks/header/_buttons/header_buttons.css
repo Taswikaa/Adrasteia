@@ -6,3 +6,9 @@
   align-items: center;
   column-gap: 30px;
 }
+
+@media screen and (min-width: 576px) {
+  .header_buttons {
+    display: none;
+  }
+}

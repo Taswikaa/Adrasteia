@@ -3,3 +3,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (min-width: 576px) {
+  .versions__about {
+    display: block;
+    margin: 0 auto;
+    max-width: 540px;
+  }
+}

@@ -5,3 +5,13 @@
   align-items: center;
   margin-bottom: 60px;
 }
+
+@media screen and (min-width: 576px) {
+  .versions__list {
+    flex-direction: row;
+    row-gap: 0;
+    justify-content: center;
+    column-gap: 30px;
+    margin-bottom: 40px;
+  }
+}

@@ -5,3 +5,10 @@
   margin: 0 0 15px 0;
   font-weight: 400;
 }
+
+@media screen and (min-width: 576px) {
+  .about__heading {
+    max-width: 290px;
+    font-size: 38px;
+  }
+}

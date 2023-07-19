@@ -4,3 +4,15 @@
   row-gap: 60px;
   align-items: center;
 }
+
+@media screen and (min-width: 576px) {
+  .goods__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90vw;
+  }
+}

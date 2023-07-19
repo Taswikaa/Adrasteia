@@ -13,6 +13,8 @@
       <p class="header__heading">simple</p>
       <div class="decor__ellipse"></div>
       <div class="decor__circle"></div>
+      <button class="button header__search desktop-only"></button>
+      <button class="button header__login desktop-only"></button>
     </div>
     <div class="header_buttons">
       <button class="button header__burger"></button>
@@ -30,9 +32,12 @@
   </header>
   <main class="main">
     <section class="about">
-      <h1 class="about__heading">Простые вещи. Из бумаги</h1>
-      <p class="about__text">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками.</p>
-      <button class="button main-btn">Каталог</button>
+      <div>
+        <h1 class="about__heading">Простые вещи. Из бумаги</h1>
+        <p class="about__text">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками.</p>
+        <button class="button main-btn">Каталог</button>
+      </div>
+      <img class="desktop-only" src="images/about-main.jpg" alt="">
     </section>
     <section class="versions">
       <ul class="list versions__list">
@@ -59,7 +64,7 @@
         </li>
       </ul>
       <div class="versions__about">
-        <img src="images/versions-main.png" alt="">
+        <img class="versions__main-img" src="images/versions-main.png" alt="">
         <h2 class="subtitle">Максимальная белизна</h2>
         <p class="versions__text">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.</p>
         <p class="versions__text versions__text_last">Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
@@ -114,13 +119,13 @@
       </div>
     </section>
     <section class="goods">
-      <ul class="list goods__list">
+      <ul class="list goods__list goods__list_catchy">
         <li class="goods__item">
-          <img class="goods__img" src="images/g5.png" alt="Картинка товара">
+          <img class="goods__img goods__img_catchy" src="images/g5.png" alt="Картинка товара">
           <div class="goods__item-info">
             <p class="subtitle">Simple скетчбук</p>
             <p class="goods__circulation"></p>
-            <p class="goods__item-text">80 листов, твердая обложка, бумага  Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</p>
+            <p class="goods__item-text">80 листов, твердая обложка, бумага  Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</p>
             <button class="button main-btn">Каталог</button>
           </div>
         </li>

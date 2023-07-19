@@ -1,3 +1,9 @@
 .goods__item {
   max-width: 290px;
 }
+
+@media screen and (min-width: 576px) {
+  .goods__item {
+    max-width: 240px;
+  }
+}
